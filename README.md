@@ -19,18 +19,31 @@ The application is packaged with its dependencies and deployed inside a Docker c
 ## 🧱 Project Structure
 
 python-docker-app/
+
 │
+
 ├── app.py
+
 ├── requirements.txt
+
 ├── Dockerfile
+
 ├── commands.sh
+
 ├── README.md
+
 │
+
 └── screenshots/
+
 ├── 1-project-files.png
+
 ├── 2-docker-build.png
+
 ├── 3-container-running.png
+
 ├── 4-app-output.png
+
 ├── 5-logs.png
 
 ---
@@ -64,7 +77,6 @@ Hello Abdullah DevOps 🚀
 ## 🚀 Setup & Execution
 
 ### 1️⃣ Build Docker Image
-```bash
 docker build -t python-app .
 
 2️⃣ Run Container
