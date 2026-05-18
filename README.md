@@ -87,63 +87,59 @@ docker ps
 
 4️⃣ Access Application
 
-Open in browser:
+#### Open in browser:
 
 http://localhost:5000
 
-📊 Logs Monitoring
+## 📊 Logs Monitoring
 
-View Logs
+### View Logs
 docker logs python-container
 
-Live Logs
+### Live Logs
 docker logs -f python-container
 
-Logs provide visibility into:
+#### Logs provide visibility into:
 
-Application startup
-Requests handling
-Errors and debugging
+- Application startup
+- Requests handling
+- Errors and debugging
 
-📸 Screenshots
-Project structure
-Docker build process
-Running container
-Application output
-Logs output
+## 📸 Screenshots
+- Project structure
+- Docker build process
+- Running container
+- Application output
+- Logs output
 
-💡 Key Concepts
-Containerization using Docker
-Dependency management with requirements.txt
-Running services inside containers
-Log monitoring for debugging
-Port mapping (host ↔ container)
+## 💡 Key Concepts
+- Containerization using Docker
+- Dependency management with requirements.txt
+- Running services inside containers
+- Log monitoring for debugging
+= Port mapping (host ↔ container)
 
-⚠️ Common Issues
+## ⚠️ Common Issues
 
-Port not accessible
+### Port not accessible
+- Ensure container is running
+- Verify port mapping
+- Module not found error
+- Check requirements.txt
+- Container exits immediately
+- Check logs using docker logs
 
-Ensure container is running
-Verify port mapping
+## 🚀 Result
+- Python Flask app successfully containerized
+- Application accessible via browser
+- Logs monitored for system visibility
+- Simulated real DevOps deployment workflow
 
-Module not found error
+## 🔗 Links
 
-Check requirements.txt
+📘 Medium Article: 
 
-Container exits immediately
-
-Check logs using docker logs
-
-🚀 Result
-Python Flask app successfully containerized
-Application accessible via browser
-Logs monitored for system visibility
-Simulated real DevOps deployment workflow
-
-🔗 Links
-📘 Medium Article: (add link)
-
-👨‍💻 Author
+## 👨‍💻 Author
 
 Abdullah
 DevOps Engineer (Learning Path)
