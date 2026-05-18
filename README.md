@@ -137,7 +137,7 @@ docker logs -f python-container
 
 ## 🔗 Links
 
-📘 Medium Article: 
+📘 Medium Article:  https://medium.com/p/4f5405bfb1fb?postPublishedType=initial
 
 ## 👨‍💻 Author
 
